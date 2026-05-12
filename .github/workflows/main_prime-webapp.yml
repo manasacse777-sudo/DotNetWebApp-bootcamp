@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'prime-webapp'
           slot-name: 'Production'
-          package: .
+          package: prime-webapp
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_71DB120012F14E6B8D6B8EA6A1A811E9 }}
