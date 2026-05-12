@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'webapp-secondar-paas'
           slot-name: 'Production'
-          package: .
+          package: webapp-secondar-pass
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_65E81E9CF5644AA69E238F5253242160 }}
