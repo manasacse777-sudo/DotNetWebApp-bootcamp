@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'prim-webapp-paas'
           slot-name: 'Production'
-          package: .
+          package: ${{env.DOTNET_ROOT}}/myapp
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14DE65FC0FA5462581FB2E14A54B9183 }}
